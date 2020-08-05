@@ -576,7 +576,7 @@ class TOGGL_INTERNAL_EXPORT Context : public TimelineDatasource {
 
     void TrackTimelineMenuContext(const TimelineMenuContextType type);
 
-    bool timeline_ui_flag = true;
+    bool IsTimelineUiEnabled();
 
  protected:
     void uiUpdaterActivity();
